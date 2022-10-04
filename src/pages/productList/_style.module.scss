@@ -1,0 +1,17 @@
+.productListBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+    .myTable{
+        width: 70%;
+        margin: 5%;
+        height: 400px;
+        overflow-y: scroll;
+        max-height: 400px;
+        background-color: white;
+
+    }
+}
